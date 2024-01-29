@@ -17,6 +17,8 @@ Este proyecto es una lista de lectura, desarrollada con REACT y estilizada con T
   - Git & Github: Version control
   - Netlify: Hosting
 
+## URL
+https://lista-de-lectura.netlify.app/
 ## 
 [![TAILWIND CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![REACT](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
