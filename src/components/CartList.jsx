@@ -29,7 +29,7 @@ export default function CartList() {
     return (
         <div className={`col-md-3 border-start border-4 ${isDarkMode ? 'border-gray-700 bg-gray-800 text-white' : 'border-secondary bg-white text-gray-800'} my-4 flex flex-wrap justify-center flex-col p-4 sm:w-full md:w-full`}>
             <div>
-                <h2 className={`font-bold text-center border-b ${isDarkMode ? 'border-sky-700' : 'border-sky-500'} pb-2`}>Shopping Cart</h2>
+                <h2 className={`font-bold text-center border-b ${isDarkMode ? 'border-sky-700' : 'border-sky-500'} pb-2`}>LISTA DE LECTURA</h2>
             </div>
                 <div className='flex justify-evenly flex-wrap mt-5 gap-4'>
                     {filteredItems.map(libro => (
