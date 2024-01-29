@@ -1,7 +1,7 @@
 import {useState, useEffect, useContext} from 'react';
 import NavBar from './NavBar';
 import Search from './Search';
-import DropdownButton from './DropDownGenres';
+import DropdownButton from './DropdownButton';
 import Authors from './Authors';
 import { ValuesProvider, ValuesContext } from './ValuesContext';
 import BookShelf from './BookShelf';
