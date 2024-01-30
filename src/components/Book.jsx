@@ -2,7 +2,7 @@
 export default function Book({ book }) {
     return (
         <div className='max-w-sm w-full lg:max-w-lg lg:flex my-10'>
-            <div className='h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden border-l border-t border-b border-gray-400' style={{ backgroundImage:`url(${book.cover})` }} title={book.title}>
+            <div className='h-64 lg:h-auto lg:w-48 flex-none bg-cover w-full rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden border-l border-t border-b border-gray-400' style={{ backgroundImage:`url(${book.cover})` }} title={book.title}>
             </div>
             <div className='border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal shadow-2xl'> 
                 <h2 className='text-center text-sky-600 font-extrabold'>{book.title}</h2>
