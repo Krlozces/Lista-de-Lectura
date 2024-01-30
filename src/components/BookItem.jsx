@@ -90,7 +90,7 @@ export default function BookItem() {
                                     </div>
                                 </Link>
                                 <button className='bg-white hover:bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-slate-200 rounded shadow my-2' type="button" onClick={() => { manejarClick(libro.book.ISBN) }}>
-                                    Add to Cart
+                                    Add to List
                                 </button>
                             </div>)
                         ))}
@@ -103,7 +103,7 @@ export default function BookItem() {
                                     </div>
                                 </Link>
                                 <button className={`bg-white hover:bg-gray-200 text-gray-800 font-semibold py-2 px-4 border ${isDarkMode ? 'border-slate-700' : 'border-slate-200'} rounded shadow my-2 sm:w-full md:w-auto lg:w-auto xl:w-auto`} type="button" onClick={() => { manejarClick(libro.book.ISBN) }}>
-                                    Add to Cart
+                                    Add to List
                                 </button>
                             </div>)
                         ))}

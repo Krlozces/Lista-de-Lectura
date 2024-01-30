@@ -15,7 +15,7 @@ export default function Book({ book }) {
                     <span className='font-bold'>Author: </span>{book.author.name}
                 </p>
                 <button className='bg-white hover:bg-gray-200 text-gray-800 font-semibold py-2 px-4 border border-slate-200 rounded shadow'>
-                    Add to cart
+                    Add to List
                 </button>
             </div>
         </div>
